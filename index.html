@@ -1,265 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="A portfolio showcasing the work of Brianna Reed: cybersecurity, web development, UI/UX, and digital art." />
-    <meta name="author" content="Brianna Reed" />
-    <title>Brianna Reed – Cybersecurity, Web & Digital Art Portfolio</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons -->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap) -->
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
-  <body id="page-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="#page-top">Brianna Reed</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu <i class="fas fa-bars ms-1"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Masthead -->
-    <header class="masthead" style="background-image: url('assets/img/header-bg.jpg')">
-      <div class="container">
-        <div class="masthead-subheading">Hi, I’m Brianna</div>
-        <div class="masthead-heading text-uppercase">Secure web solutions & dynamic digital art</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#services">Explore My Work</a>
-      </div>
-    </header>
-    <!-- Services -->
-    <section class="page-section" id="services">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">Expertise in security, development, UX/UI, and digital art.</h3>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <i class="fas fa-lock fa-4x mb-3 text-primary"></i>
-            <h4 class="my-3">Cybersecurity Analysis</h4>
-            <p class="text-muted">Identifying vulnerabilities and implementing defenses to protect applications and data.</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fas fa-code fa-4x mb-3 text-primary"></i>
-            <h4 class="my-3">Web Development</h4>
-            <p class="text-muted">Building responsive, accessible websites & web apps using modern frameworks and best practices.</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fas fa-palette fa-4x mb-3 text-primary"></i>
-            <h4 class="my-3">Creative Digital Art & UX/UI</h4>
-            <p class="text-muted">Designing immersive 3D models, animations, and interfaces using Blender, Photoshop, Unity, Maya, Unreal Engine, and more.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio Grid -->
-    <section class="page-section bg-light" id="portfolio">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Showcasing projects that highlight my skills in security, code, and digital art.</h3>
-        </div>
-        <div class="row">
-          <!-- Portfolio items as before... -->
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio Modals -->
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">Home Automation Dashboard</h2>
-                  <p class="item-intro text-muted">An interactive dashboard that monitors and controls IoT devices, integrating robust security measures.</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="Home Automation Dashboard screenshot" />
-                  <p>Developed using React, Node.js, and MQTT protocols to deliver real-time control over smart home devices, with role-based access controls.</p>
-                  <ul class="list-inline">
-                    <li><strong>Client:</strong> Personal Project</li>
-                    <li><strong>Category:</strong> Web App + Security</li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-xmark me-1"></i>Close Project
-                  </button>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Showcase of Brianna Reed’s work in cybersecurity, web development, UX/UI design, and digital art (Blender, Photoshop, Unity, Maya, Unreal Engine)." />
+        <meta name="author" content="Brianna Reed" />
+        <title>Brianna Reed – Cybersecurity & Creative Digital Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Brianna Reed</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">3D Modeling Showcase</h2>
-                  <p class="item-intro text-muted">High-fidelity 3D models created in Blender and refined in Maya for concept art and animations.</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="3D Modeling Showcase" />
-                  <p>Features include detailed texturing, rigging for animation, and photorealistic rendering workflows in Blender and Autodesk Maya.</p>
-                  <ul class="list-inline">
-                    <li><strong>Client:</strong> Personal Portfolio</li>
-                    <li><strong>Category:</strong> 3D Art & Animation</li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-xmark me-1"></i>Close Project
-                  </button>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome to my world</div>
+                <div class="masthead-heading text-uppercase">I build secure, intuitive digital experiences</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Learn More</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">Combining technical rigor with creative vision.</h3>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">Music Production Plugin</h2>
-                  <p class="item-intro text-muted">A VST plugin built for seamless integration with DAWs, enabling custom audio effects in real time.</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="Music Production Plugin interface" />
-                  <p>Engineered in C++ with JUCE framework, featuring a modular effects chain, low-latency processing, and a user-friendly UI.</p>
-                  <ul class="list-inline">
-                    <li><strong>Client:</strong> Independent Release</li>
-                    <li><strong>Category:</strong> Audio Software</li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-xmark me-1"></i>Close Project
-                  </button>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Cybersecurity Analysis</h4>
+                        <p class="text-muted">I identify and remediate vulnerabilities to keep applications and data safe.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Web Development</h4>
+                        <p class="text-muted">I craft responsive, accessible websites using modern frameworks and clean design.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-palette fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Digital Art & UX/UI</h4>
+                        <p class="text-muted">From Blender and Maya to Photoshop and Unreal Engine, I create immersive visuals and intuitive interfaces.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">Digital Art Showcase</h2>
-                  <p class="item-intro text-muted">A gallery of digital paintings and concept art created in Photoshop and Unreal Engine.</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="Digital Art Showcase" />
-                  <p>Includes environment concept renders, character studies, and interactive real-time scenes built in Unreal Engine.</p>
-                  <ul class="list-inline">
-                    <li><strong>Client:</strong> Personal Exhibition</li>
-                    <li><strong>Category:</strong> Digital Art & UX/UI</li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-xmark me-1"></i>Close Project
-                  </button>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">A showcase of projects across security, code & digital art.</h3>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">Game Prototype: Wolf & Moon</h2>
-                  <p class="item-intro text-muted">A prototype adventure game built in Unity, featuring dynamic lighting and interactive NPCs.</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="Wolf & Moon Unity prototype" />
-                  <p>Developed in C# with Unity’s URP, including custom shaders, AI behavior trees, and UI/UX flow for quests.</p>
-                  <ul class="list-inline">
-                    <li><strong>Client:</strong> Game Jam Submission</li>
-                    <li><strong>Category:</strong> Unity & C#</li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-xmark me-1"></i>Close Project
-                  </button>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="Home Automation Dashboard" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Home Automation Dashboard</div>
+                                <div class="portfolio-caption-subheading text-muted">Web App & Security</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="3D Modeling Showcase" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">3D Modeling Showcase</div>
+                                <div class="portfolio-caption-subheading text-muted">Blender & Maya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="Music Production Plugin" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Music Production Plugin</div>
+                                <div class="portfolio-caption-subheading text-muted">Audio Software Dev</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="Digital Art Showcase" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Digital Art Showcase</div>
+                                <div class="portfolio-caption-subheading text-muted">Photoshop & Unreal Engine</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="Game Prototype: Wolf & Moon" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Game Prototype: Wolf &amp; Moon</div>
+                                <div class="portfolio-caption-subheading text-muted">Unity & C#</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="Cybersecurity Report" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Cybersecurity Report</div>
+                                <div class="portfolio-caption-subheading text-muted">Technical Documentation</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">Cybersecurity Report</h2>
-                  <p class="item-intro text-muted">Comprehensive security assessment report detailing vulnerabilities and remediation steps.</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="Cybersecurity Report" />
-                  <p>Includes network scans, penetration test findings, and prioritized recommendations, compiled into a professional document.</p>
-                  <ul class="list-inline">
-                    <li><strong>Client:</strong> University Capstone</li>
-                    <li><strong>Category:</strong> Technical Documentation</li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-xmark me-1"></i>Close Project
-                  </button>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">My journey from tinkerer to tech creative.</h3>
                 </div>
-              </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="Born in Battle Creek" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>1995</h4>
+                                <h4 class="subheading">Born in Battle Creek, MI</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">From early gadget tinkering to crafting code, I’ve always been driven by curiosity and creation.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="Becoming a Mom" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2015</h4>
+                                <h4 class="subheading">Becoming a Mom</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Welcomed my daughter Isabella, inspiring me to balance creativity with structure and security.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="Growing Family" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2019–2021</h4>
+                                <h4 class="subheading">Three Little Girls</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Raising three daughters taught me resilience, patience, and the power of innovation in everyday life.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="Studying CS" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2022</h4>
+                                <h4 class="subheading">Studying CS at SNHU</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Diving deep into cybersecurity, software engineering, and system design to sharpen my technical expertise.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><h4>Next<br />Chapter<br />Begins</h4></div>
+                    </li>
+                </ul>
             </div>
-          </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">The collaborative minds behind each project.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="Parveen Anand" />
+                            <h4>Parveen Anand</h4>
+                            <p class="text-muted">Lead Designer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="Diana Petersen" />
+                            <h4>Diana Petersen</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="Larry Parker" />
+                            <h4>Larry Parker</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- Footer -->
-    <footer class="footer py-4">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-lg-start">&copy; Brianna Reed 2025</div>
-          <div class="col-lg-4 my-3 my-lg-0">
-            <a class="btn btn-dark btn-social mx-2" href="https://github.com/sourcecodeserenader" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/shnazzybri/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-          <div class="col-lg-4 text-lg-end"></div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Get in Touch</h2>
+                    <h3 class="section-subheading text-muted">Feel free to email me or connect on LinkedIn.</h3>
+                </div>
+                <form id="contactForm" method="mailto" action="mailto:brianna.reed1@snhu.edu">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *" required />
+                        </div>
+                        <div class="col-md-6"><textarea class="form-control" id="message" placeholder="Your Message *" required></textarea></div>
+                    </div>
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" type="submit">Send Email</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">&copy; Brianna Reed 2025</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/sourcecodeserenader" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/shnazzybri/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end"></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog"><div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><div class="modal-body">
+                    <h2 class="text-uppercase">Home Automation Dashboard</h2>
+                    <p class="item-intro text-muted">A full-stack web app integrating device control and security monitoring.</p>
+                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="Dashboard screenshot" />
+                    <p>Built with React, Node.js, and secure OAuth authentication to manage home devices remotely.</p>
+                    <ul class="list-inline">
+                        <li><strong>Client:</strong> Personal Project</li>
+                        <li><strong>Category:</strong> Web App & Security</li>
+                    </ul>
+                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-xmark me-1"></i>Close Project
+                    </button>
+                </div></div></div></div>
+            </div></div>
         </div>
-      </div>
-    </footer>
-    <!-- Bootstrap core JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS -->  
-    <script src="js/scripts.js"></script>
-  </body>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog"><div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><div class="modal-body">
+                    <h2 class="text-uppercase">3D Modeling Showcase</h2>
+                    <p class="item-intro text-muted">High-poly and low-poly models created in Blender and Autodesk Maya.</p>
+                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="3D models" />
+                    <p>Complex scenes rendered with cycles, optimized for real-time engines, and animated for portfolio presentation.</p>
+                    <ul class="list-inline">
+                        <li><strong>Client:</strong> Personal Project</li>
+                        <li><strong>Category:</strong> Blender & Maya</li>
+                    </ul>
+                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-xmark me-1"></i>Close Project
+                    </button>
+                </div></div></div></div>
+            </div></div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog"><div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><div class="modal-body">
+                    <h2 class="text-uppercase">Music Production Plugin</h2>
+                    <p class="item-intro text-muted">A VST plugin for live audio processing and effects.</p>
+                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="Plugin UI" />
+                    <p>Developed in C++ with JUCE framework, offering real-time modulation and low-latency performance.</p>
+                    <ul class="list-inline">
+                        <li><strong>Client:</strong> Personal Project</li>
+                        <li><strong>Category:</strong> Audio Software Dev</li>
+                    </ul>
+                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-xmark me-1"></i>Close Project
+                    </button>
+                </div></div></div></div>
+            </div></div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog"><div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><div class="modal-body">
+                    <h2 class="text-uppercase">Digital Art Showcase</h2>
+                    <p class="item-intro text-muted">Concept art and environment renders crafted in Photoshop & Unreal Engine.</p>
+                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="Digital art piece" />
+                    <p>High-resolution prints and interactive Unreal demos demonstrating lighting, materials, and composition.</p>
+                    <ul class="list-inline">
+                        <li><strong>Client:</strong> Personal Project</li>
+                        <li><strong>Category:</strong> Photoshop & Unreal Engine</li>
+                    </ul>
+                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-xmark me-1"></i>Close Project
+                    </button>
+                </div></div></div></div>
+            </div></div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog"><div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><div class="modal-body">
+                    <h2 class="text-uppercase">Game Prototype: Wolf &amp; Moon</h2>
+                    <p class="item-intro text-muted">A Unity prototype exploring dynamic lighting and player mechanics.</p>
+                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="Game prototype screenshot" />
+                    <p>Implemented in Unity C#, with custom shaders and responsive control mapping.</p>
+                    <ul class="list-inline">
+                        <li><strong>Client:</strong> Personal Project</li>
+                        <li><strong>Category:</strong> Unity &amp; C#</li>
+                    </ul>
+                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-xmark me-1"></i>Close Project
+                    </button>
+                </div></div></div></div>
+            </div></div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog"><div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><div class="modal-body">
+                    <h2 class="text-uppercase">Cybersecurity Report</h2>
+                    <p class="item-intro text-muted">Comprehensive vulnerability assessment for web applications.</p>
+                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="Report cover" />
+                    <p>Detailed findings, risk ratings, and remediation guidance delivered as a formal document.</p>
+                    <ul class="list-inline">
+                        <li><strong>Client:</strong> Personal Project</li>
+                        <li><strong>Category:</strong> Technical Documentation</li>
+                    </ul>
+                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-xmark me-1"></i>Close Project
+                    </button>
+                </div></div></div></div>
+            </div></div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- SB Forms JS-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
